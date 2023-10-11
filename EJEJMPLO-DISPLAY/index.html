@@ -11,15 +11,23 @@
         /* no tienen ninguna separacion entre ellos */
         /* se colocan uno debajo del otro siempre en columna */
         
-        nav,h1,p,a,span,button,input{
-            border: 10px solid orange;
-            background-color: bisque(255,255,255);
-            width: 200px;
+        /* nav,h1,p,a,span,button,input{ */
+            /* border: 10px solid orange; */
+            /* background-color: bisque(255,255,255); */
+            /* width: 200px; */
             /* sino pongo estan separadas */
-            margin: 2px;
+            /* margin: 2px; */
             /* No afectan a inline solo a block */
             /* quito para ver imagen bien */
             /* height: 50px; */
+        /* } */
+        
+        nav{
+            display: flex;
+        }
+        a{
+            width: 200px;
+            /* width: 25%; */
         }
 
         div,img{
@@ -56,7 +64,18 @@
     </div>
     </section>
     <div>
-    <nav>B</nav>
+    <nav>
+    <a href="#">A</a>
+    <a href="#">BBB</a>
+    <a href="#">BBB2</a>
+    <a href="#">BBB3</a>
+    </nav>
+    <nav>
+    <a href="#">A</a>
+    <a href="#">BBB</a>
+    <a href="#">BBB2</a>
+    <a href="#">BBB3</a>
+    </nav>
     <h1>C</h1>
     <p>D</p>
 
@@ -67,9 +86,9 @@
     <!-- tienen la altura justa y eacta que necesitan -->
     <!-- siempre hay una separacion fija entre susu elementos -->
     <!-- para acoratar un espacio ahora tienen dos tendria que juntar ababjo las etiquetas no tener separadas -->
-
+<!-- 
     <a href="#">A</a>
-    <a href="#">B</a>
+    <a href="#">B</a> -->
     <span>C</span>
 
     <!-- displat  inline block -->
