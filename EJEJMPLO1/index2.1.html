@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- Ejejmplo 1 -->
+
+<!-- <style>
+    /* Estilos generales (mismos estilos) ... */
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto 1fr auto;
+        background-color: lightgreen;
+        border: 1px solid black;
+    }
+
+    .caja {
+        border: 4px solid black;
+        background-color: lightgray;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Estilos para cada sección (header, nav, main, aside, footer) */
+    header, nav, main, aside, footer {
+        margin: 10px;
+        padding: 10px;
+        background-color: lightgray;
+        border: 2px solid black;
+        text-align: center;
+        flex: 1;
+    }
+
+    /* Estilos específicos para algunas cajas (mismos estilos) ... */
+</style> -->
+
+
+<!-- /////////////////////////////// -->
+<!-- /////////////////////////////// -->
+
+<!-- Ejejmplo 2 -->
+<!-- 
+<style>
+    /* Estilos generales (mismos estilos) ... */
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: auto 1fr; /* Cambia el orden de las columnas */
+        grid-template-rows: auto auto 1fr auto;
+        background-color: lightgreen;
+        border: 1px solid black;
+    }
+
+    .caja {
+        border: 4px solid black;
+        background-color: lightgray;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Estilos para cada sección (header, nav, main, aside, footer) */
+    header, nav, main, aside, footer {
+        margin: 10px;
+        padding: 10px;
+        background-color: lightgray;
+        border: 2px solid black;
+        text-align: center;
+        flex: 1;
+    }
+
+    /* Estilos específicos para algunas cajas (mismos estilos) ... */
+</style> -->
+
+<!-- /////////////////////////////// -->
+<!-- /////////////////////////////// -->
+
+<!-- Ejejmplo 3 -->
+
+<!-- <style>
+    /* Estilos generales (mismos estilos) ... */
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: auto 1fr auto; /* Cambia el orden y agrega una columna */
+        grid-template-rows: auto auto 1fr auto;
+        background-color: lightgreen;
+        border: 1px solid black;
+    }
+
+    .caja {
+        border: 4px solid black;
+        background-color: lightgray;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Estilos para cada sección (header, nav, main, aside, footer) */
+    header, main, footer {
+        margin: 10px;
+        padding: 10px;
+        background-color: lightgray;
+        border: 2px solid black;
+        text-align: center;
+        flex: 1;
+    }
+
+    nav, aside {
+        margin: 10px;
+        padding: 10px;
+        background-color: lightgray;
+        border: 2px solid black;
+        text-align: center;
+        flex: 1;
+    }
+
+    /* Estilos específicos para algunas cajas (mismos estilos) ... */
+</style> -->
+
+<!-- /////////////////////////////// -->
+<!-- /////////////////////////////// -->
+
+<!-- Ejejmplo 4 -->
+<style>
+    /* Estilos generales (mismos estilos) ... */
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: auto 1fr auto; /* Cambia el orden y agrega una columna */
+        grid-template-rows: auto auto 1fr auto;
+        background-color: lightgreen;
+        border: 1px solid black;
+    }
+
+    .caja {
+        border: 4px solid black;
+        background-color: lightgray;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Estilos para cada sección (header, nav, main, aside, footer) */
+    header, main, nav, aside {
+        margin: 10px;
+        padding: 10px;
+        background-color: lightgray;
+        border: 2px solid black;
+        text-align: center;
+        flex: 1;
+    }
+
+    footer {
+        margin: 10px;
+        padding: 10px;
+        background-color: lightgray;
+        border: 2px solid black;
+        text-align: center;
+        grid-column: 1 / span 2; /* Ocupa dos columnas */
+        flex: 1;
+    }
+</style>
+
+
+</head>
+<body>
+  <section id="formulario">
+        <h1>Aprendiendo CSS Grid Layout</h1>
+
+        <div class="grid-layout">
+            <div class="caja c1">
+                <header>Header</header>
+            </div>
+            <div class="caja c2">
+                <nav>Nav</nav>
+            </div>
+            <div class="caja c3">
+                <main>Main</main>
+            </div>
+            <div class="caja c5">
+                <aside>Aside</aside>
+            </div>
+            <div class="caja c6">
+                <footer>Footer</footer>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
